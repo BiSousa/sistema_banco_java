@@ -57,7 +57,7 @@ public abstract class Conta implements IConta{
             emprestimoRealizado = true;
         }
         else{
-            System.out.println("Não é possível realizar o empréstimo!");
+            System.out.println("Não é possível realizar o empréstimo!\n");
         }
     }
 

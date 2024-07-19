@@ -10,7 +10,7 @@ public class Main {
 
         cc.depositar(100);
         cc.visualizarExtrato();
-        cc.consultarEmprestimo(200);
+        cc.consultarEmprestimo(550);
         cc.visualizarExtrato();
         cc.transferir(100, poupanca);
 
