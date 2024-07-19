@@ -9,6 +9,9 @@ public class Main {
         Conta poupanca = new ContaPoupanca(beatriz);
 
         cc.depositar(100);
+        cc.visualizarExtrato();
+        cc.consultarEmprestimo(200);
+        cc.visualizarExtrato();
         cc.transferir(100, poupanca);
 
         cc.visualizarExtrato();
